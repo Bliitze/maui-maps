@@ -14,5 +14,6 @@ public class MapPage : ContentPage
 {
     public MapPage()
     {
+        Content = new MapView();
     }
 }
